@@ -1,13 +1,19 @@
-@font-face{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-  font-family: 'Banny';
-  
-  src: url('../My_project/fonts/Banny-BoldRound.otf') format('otf');
-    
+
+@font-face {
+
+  font-family: 'Banny_bold';
+
+  src: url('./fonts/Banny_bold.otf');
+
   font-weight: bold;
-  
-  font-style: normal;
-  
-  }
-  
 
+  font-style: normal;
+
+}
+
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}

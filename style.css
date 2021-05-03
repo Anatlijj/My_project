@@ -10,10 +10,62 @@
   font-weight: bold;
 
   font-style: normal;
-
 }
 
 
-*{
+* {
   font-family: 'Open Sans', sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.container {
+  align-items: center;
+}
+
+.header {
+  background: url(./images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 770px;
+  align-items: center;
+}
+
+.nav{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 445px;
+  margin-top: 45px;
+}
+
+.nav__left{
+  position: relative;
+  margin-left: 125px;
+  
+
+}
+
+.nav__right{
+  position: relative;
+  margin-right: 125px;
+}
+
+.logo{
+  position: relative;
+  display: flex;
+  justify-content: center;
 }

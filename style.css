@@ -33,7 +33,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  height: 770px;
+  height: 800px;
   width: 100%;
   align-items: center;
 }
@@ -130,11 +130,9 @@ ul{
 
 .button__btn{
   margin-left: 2.5%;
-
   background-color: Transparent;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 7px;
-  outline: none;
   width: 200px;
   height: 60px;
 }
@@ -147,5 +145,32 @@ ul{
 .btn__txt{
   color:#FFFFFF;
   font-size: 12px;
+}
 
+.touch{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.touch__btn{  
+  border: none;
+  background-color: Transparent;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  margin-left: 91%;
+  margin-top: -400px;
+  width: 60px;
+  height: 60px;
+}
+
+.facebook{
+  margin-bottom: 20px;
+}
+
+.twitter{
+  margin-bottom: 20px;
 }

@@ -179,10 +179,9 @@ ul{
   height: 570px;
 }
 
-.short__title{
+.short__title{  
+  position: relative;
   color: #000000;
-  display: flex;
-  
   font-family: 'Banny-BoldRound';
   font-size: 36px;
   font-weight: bold;
@@ -191,19 +190,17 @@ ul{
 }
 
 .about__br{
-  display: flex;
-  justify-content: center;
+  position: relative;
   border-bottom: 4px solid #E8C300;
   border-radius: 10px;
   margin-top: 25px;
   margin-left: 26.5%;
-  width: 4%;  
+  width: 60px;  
   margin-bottom: 25px;
 }
 
 .text{
   text-align: center;
-  position: relative;
 }
 
 .about__text{

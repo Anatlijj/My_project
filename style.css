@@ -120,6 +120,7 @@ ul{
 
 .btn{
   margin-right: 2.5%;
+  margin-left: 0.5%;
   border: 1px solid #E8C300;
   background: #E8C300;
   border-radius: 7px;
@@ -129,7 +130,7 @@ ul{
 }
 
 .button__btn{
-  margin-left: 2.5%;
+  margin-left: 3%;
   background-color: Transparent;
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 7px;

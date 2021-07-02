@@ -94,7 +94,7 @@ ul{
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  position: fixed;
+  position: absolute;
   transform: rotate(-450deg); 
   margin-top: -30px;
   margin-left: -55px;
@@ -186,15 +186,14 @@ ul{
   font-size: 36px;
   font-weight: bold;
   margin-top: 225px;
-  margin-left: 22%;
+  margin-left: 18%;
 }
 
 .about__br{
-  position: relative;
   border-bottom: 4px solid #E8C300;
   border-radius: 10px;
   margin-top: 25px;
-  margin-left: 26.5%;
+  margin-left: 22%;
   width: 60px;  
   margin-bottom: 25px;
 }
@@ -208,15 +207,17 @@ ul{
   font-weight: 700;
   font-style: bold;
   height: 570px;
-  margin-left: 7%;
-  margin-right: 53.5%;
+  max-width: 570px;
+  margin-left: 58px;
+  margin-right: 770px;
 }
 
 .txt{
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
-  margin-left: 7%; 
-  margin-right: 53.5%;
+  margin-left: 58px; 
+  margin-right: 770px;
   margin-top: -505px;
+  max-width: 570px;
 }
